@@ -1,6 +1,12 @@
 /*
 Tinkeringtech.com
-Hall Sensor state read Arduino sketch
+Hall Sensor state read Arduino sketch.
+Please connect up the Arduino circuit as in the Hall Sensor product page.
+Move a magnet toward and away from the sensor, and you will notice the Serial console digital value change.
+
+When the demo is running, the Serial console will print the following values:
+No Magnet = 1
+With Magnet = 0
  */
 
 const int HallSensorPin =  13;      // the pin number the Hall Sensor is connected to
